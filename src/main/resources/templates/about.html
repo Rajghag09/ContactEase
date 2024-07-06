@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}">
+<head>
+  <title>About ContactEase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: #34495e;
+      margin-top: 30px;
+    }
+    section {
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .cta-section {
+      background-color: #3498db;
+      color: #fff;
+      text-align: center;
+      padding: 30px;
+      border-radius: 5px;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #fff;
+      color: #3498db;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 15px;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #ecf0f1;
+    }
+  </style>
+</head>
+<body>
+<div id="content" class="container">
+  <h1>About ContactEase</h1>
+
+  <section>
+    <h2>Simplify Your Contact Management</h2>
+    <p>
+      ContactEase is a powerful, user-friendly application designed to help you efficiently manage your contacts.
+      Whether you're a business professional, entrepreneur, or simply someone who values organized communication,
+      ContactEase is here to streamline your contact management process.
+    </p>
+  </section>
+
+  <section>
+    <h2>Key Features</h2>
+    <ul>
+      <li>Intuitive contact organization</li>
+      <li>Quick search and filtering</li>
+      <li>Custom fields for personalized information</li>
+      <li>Group management</li>
+      <li>Secure data storage</li>
+      <li>Import and export capabilities</li>
+      <li>Integration with popular communication tools</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p>
+      At ContactEase, we believe that effective contact management is crucial for both personal and professional success.
+      Our mission is to provide a robust, yet easy-to-use platform that empowers users to maintain and leverage their
+      network of contacts efficiently.
+    </p>
+  </section>
+
+  <section class="cta-section">
+    <h2>Get Started</h2>
+    <p>
+      Ready to take control of your contacts? Sign up for ContactEase today and experience the ease of
+      modern contact management.
+    </p>
+    <a href="#" class="cta-button">Sign Up Now</a>
+  </section>
+</div>
+
+<script>
+  console.log("About ContactEase page loaded");
+</script>
+</body>
+</html>
