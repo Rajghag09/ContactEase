@@ -100,9 +100,6 @@
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
-
-- Special thanks to the open-source community and [Rajghag09](https://github.com/Rajghag09) for the original project setup.
 
 ---
 
